@@ -29,8 +29,12 @@
 					For I am moved by macabre curiosity and a strong desire to see
 					chaos and destruction. And the easiest way to achieve that, is to 
 					mess around with C. </p>
-
+				<br>
 				<img src="screenshot1.png" width=100%>
+
+				<br>
+				<img src="screenshot4.png" width="100%">
+				<br>
 			</div>
 			<div class="column">
 				<h1> Why this works? </h1>
@@ -73,6 +77,21 @@
 				<img src="screenshot3.png" width="100%">
 				<br>
 				<p> Oh, and by the way, there's no destructor implemented yet. We leak memory for greater good </p>
+
+				<h2> Update: objects now have some way of knowing their type </h2>
+
+				<p> But don't get your hopes high, you still have to check it manually, so the risk
+					of segfault stands. What we now have is some sort of identifier you can assign 
+				to each class, such as an element of an enum (which is what I did on the example) </p>
+
+				<br>
+				<img src="screenshot5.png" width="100%">
+				<br>
+
+				<p> With that, you can manually check the type of an object before potentially
+				calling some method you shouldn't. </p>
+
+				
 			</div>
 			
 		</div>
