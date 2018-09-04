@@ -1,7 +1,22 @@
 /*
-* NO LOOK AT SAUCE!
+  NO LOOK AT SAUCE!
+                         _
+ _._ _..._ .-',     _.._(`))
+'-. `     '  /-._.-'    ',/
+   )         \            '.
+  / _    _    |             \
+ |  a    a    /              |
+ \   .-.                     ;  
+  '-('' ).-'       ,'       ;
+     '-;           |      .'
+        \           \    /
+        | 7  .__  _.-\   \
+        | |  |  ``/  /`  /
+       /,_|  |   /,_/   /
+          /,_/      '`-'
+   Safety Pig Has Arrived.
+   Hard to read code and crazy hacks follow.
 */
-
 #pragma once 
 #include <string.h>
 #include <stdlib.h>
